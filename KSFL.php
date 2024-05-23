@@ -730,9 +730,13 @@ require_once('top-header.php');
 
 
 
-                                                         <p><label> Payment Screenshot<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="PaymentScreenshot"><input size="40" class="wpcf7-form-control wpcf7-file wpcf7-validates-as-required" accept=".jpg,.png,.or,.pdf,.files,.only" aria-required="true" aria-invalid="false" type="file" name="PaymentScreenshot" /></span></label>
-                                                         </p>
+                                                         <p>
+                                                            <label>*Payment Screenshot (jpg,png,pdf) <br>
+                                                                <span class="wpcf7-form-control-wrap" data-name="PaymentScreenshot">
+                                                                    <input size="40" class="wpcf7-form-control wpcf7-file wpcf7-validates-as-required" accept=".jpg,.png,.pdf" aria-required="true" aria-invalid="false" type="file" name="PaymentScreenshot" id="PaymentScreenshot" />
+                                                                </span>
+                                                            </label>
+                                                        </p>
 
                                                          <p><label> Signature<br />
                                                             <input type="checkbox" name="your-signature" id="your-signature" /> <span class="wpcf7-form-control-wrap" > Tick for Signature</span><br> <span id="e28" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please tick for signature.</span></label>
@@ -845,6 +849,48 @@ require_once('bottom-footer.php');
 ?>
 
 <script>
+
+    var uploadFilePath = "";
+
+        $(document).ready(function() {
+            $('#PaymentScreenshot').change(function(e) {
+                e.preventDefault();
+                var fileInput = $('#PaymentScreenshot')[0];
+                uploadFilePath = "";
+                $('#responseOutput').html("");
+                if (fileInput.files.length === 0) {
+                    $('#responseOutput').html('<span class="wpcf7-not-valid-tip" style="color:#ff5b4a;" aria-hidden="true">Please upload a Payment Screenshot.</span>');
+                    return;
+                }
+                
+                var formData = new FormData();
+                formData.append('PaymentScreenshot', fileInput.files[0]);
+
+                $.ajax({
+                    url: 'upload.php',  // PHP script to handle the upload
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        // Handle the response from the server
+                        if(response == "Err"){
+                            $('#responseOutput').html('<span class="wpcf7-not-valid-tip" style="color:#ff5b4a;" aria-hidden="true">An error occurred while uploading the file. Only accept jpg, png and pdf </span>');
+                        }else{
+                            uploadFilePath = response;
+                        }
+
+                    },
+                    error: function() {
+                        $('#responseOutput').html('<span class="wpcf7-not-valid-tip" style="color:#ff5b4a;" aria-hidden="true">An error occurred while uploading the file.</span>');
+                    }
+                });
+            });
+        });
+
+
+
+
 
 function applyKSFL(){
     var isErr = false;
@@ -1047,6 +1093,11 @@ function applyKSFL(){
         return false;
     } 
 
+    if(uploadFilePath == ""){
+        $('#responseOutput').html('<span class="wpcf7-not-valid-tip" style="color:#ff5b4a;" aria-hidden="true">Please upload a Payment Screenshot.</span>');
+        return false;
+    }
+
     var signature = $('#your-signature').is(':checked');
 
     if(!signature){
@@ -1092,6 +1143,7 @@ function applyKSFL(){
             'tac':tac,
             'project_details':project_details,
             'signature':1,
+            'uploadFilePath':uploadFilePath
         }
 
         $.ajax({
@@ -1121,7 +1173,6 @@ function applyKSFL(){
         }
     });
 
-    alert(name);
 }
 
 </script>

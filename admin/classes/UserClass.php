@@ -55,6 +55,9 @@ class User {
 		$data["tac"]=str_replace("'", '"',$_REQUEST["tac"]);
 		$data["project_details"]=str_replace("'", '"',$_REQUEST["project_details"]);
 		$data["signature"]=str_replace("'", '"',$_REQUEST["signature"]);
+		$data["uploadFilePath"]=str_replace("'", '"',$_REQUEST["uploadFilePath"]);
+
+		
 
 		
 	    $result = $this->dbc->insert_query($data, 'tbl_ksfl_applications');
