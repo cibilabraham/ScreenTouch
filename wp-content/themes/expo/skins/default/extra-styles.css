@@ -22,11 +22,11 @@ body .booked-calendar-wrap .booked-calendar .booked-appt-list .timeslot .timeslo
 
 .select_container select optgroup {
   color: var(--theme-color-text_dark);
-  background-color: var(--theme-color-bg_color);
+  background-color: #140048;
 }
 
 button.full_post_close {
-  background-color: var(--theme-color-alter_bg_color);
+  background-color: #140048;
 }
 
 .widget .trx_addons_tabs .trx_addons_tabs_titles li a {
@@ -257,7 +257,7 @@ button.full_post_close {
 
 /* 404 */
 .error404 .page_content_wrap {
-  background-color: var(--theme-color-bg_color);
+  background-color: #140048;
 }
 
 .post_item_404 .post_content .all-svg {
@@ -323,7 +323,7 @@ button.full_post_close {
 /* Alert */
 .elementor-alert.elementor-alert-info {
   padding: 4em;
-  background-color: var(--theme-color-bg_color);
+  background-color: #140048;
   color: var(--theme-color-text);
 }
 .elementor-alert.elementor-alert-info .elementor-alert-description {

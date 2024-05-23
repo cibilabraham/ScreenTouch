@@ -108,13 +108,13 @@
                                                 <div class="widget_area sc_widget_custom_links">
                                                    <aside class="widget widget_custom_links">
                                                       <ul class="custom_links_list">
-                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="index.html"><span class="custom_links_list_item_title">Home</span></a></li>
+                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="index.php"><span class="custom_links_list_item_title">Home</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="about-cdiff/index.html"><span class="custom_links_list_item_title">About</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="our-team-members/index.html"><span class="custom_links_list_item_title">Team</span></a></li>
-                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="our-board/index.html"><span class="custom_links_list_item_title">Our Board</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="jury-advisory/index.html"><span class="custom_links_list_item_title">Jury</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="awards/index.html"><span class="custom_links_list_item_title">Awards</span></a></li>
-                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="film-submission/index.html"><span class="custom_links_list_item_title">Submission</span></a></li>
+                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="KSFL.php"><span class="custom_links_list_item_title">KSFL</span></a></li>
+                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="KMVL.php"><span class="custom_links_list_item_title">KMVL</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="oursupporters/index.html"><span class="custom_links_list_item_title">Supporters</span></a></li>
                                                       </ul>
                                                    </aside>
