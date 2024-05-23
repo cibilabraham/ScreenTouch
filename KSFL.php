@@ -2,6 +2,269 @@
 require_once('top-header.php');
 ?>
 
+<style id='elementor-frontend-inline-css' type='text/css'>
+            .elementor-kit-15 {
+                --e-global-color-primary: #6EC1E4;
+                --e-global-color-secondary: #54595F;
+                --e-global-color-text: #7A7A7A;
+                --e-global-color-accent: #61CE70;
+                --e-global-color-61c01e98: #4054B2;
+                --e-global-color-69bf31ed: #23A455;
+                --e-global-color-7a1ccbe5: #000;
+                --e-global-color-13ed1179: #FFF;
+                --e-global-typography-primary-font-family: "Roboto";
+                --e-global-typography-primary-font-weight: 600;
+                --e-global-typography-secondary-font-family: "Roboto Slab";
+                --e-global-typography-secondary-font-weight: 400;
+                --e-global-typography-text-font-family: "Roboto";
+                --e-global-typography-text-font-weight: 400;
+                --e-global-typography-accent-font-family: "Roboto";
+                --e-global-typography-accent-font-weight: 500;
+            }
+
+            .elementor-section.elementor-section-boxed > .elementor-container {
+                max-width: 1320px;
+            }
+
+            .e-con {
+                --container-max-width: 1320px;
+            }
+
+            .elementor-widget:not(:last-child) {
+                margin-block-end:20px;}
+
+            .elementor-element {
+                --widgets-spacing: 20px 20px;
+            }
+
+            {
+            }
+
+            .sc_layouts_title_caption {
+                display: var(--page-title-display);
+            }
+
+            @media(max-width: 1024px) {
+                .elementor-section.elementor-section-boxed > .elementor-container {
+                    max-width:1024px;
+                }
+
+                .e-con {
+                    --container-max-width: 1024px;
+                }
+            }
+
+            @media(max-width: 767px) {
+                .elementor-section.elementor-section-boxed > .elementor-container {
+                    max-width:767px;
+                }
+
+                .e-con {
+                    --container-max-width: 767px;
+                }
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-0c2873d:not(.elementor-motion-effects-element-type-background), .elementor-20884 .elementor-element.elementor-element-0c2873d > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+                background-image: url("images/ksfl-logo.png");
+                background-position: top center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-0c2873d .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-0c2873d .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-0c2873d {
+                transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-0c2873d > .elementor-background-overlay {
+                transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-2b1438a {
+                --spacer-size: 114px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-b9917a5 {
+                text-align: center;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-b9917a5 .elementor-heading-title {
+                color: #FFFFFF;
+                font-family: "Alegreya", Sans-serif;
+                font-size: 118px;
+                -webkit-text-stroke-width: 1px;
+                stroke-width: 1px;
+                -webkit-text-stroke-color: #DEB704;
+                stroke: #DEB704;
+                text-shadow: 0px 0px 10px #000000;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-62adaea {
+                --spacer-size: 31px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-4c840f0 .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-4c840f0 .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-09b57f9 {
+                --spacer-size: 34px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-0debe9a .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-0debe9a .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-7db6d02 .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-7db6d02 .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-9da1ba6 {
+                --spacer-size: 17px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-d30fb4a {
+                text-align: center;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-3dd2a47 .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-3dd2a47 .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-d734828 {
+                --spacer-size: 71px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-7f667d5 > .elementor-widget-container {
+                padding: 8px 8px 8px 8px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-fd67916 .elementor-heading-title {
+                color: #8D8A8A;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-fd67916 > .elementor-widget-container {
+                padding: 9px 9px 9px 9px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-e0fd01d {
+                --spacer-size: 71px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-dfd3703 .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-dfd3703 .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-662f2c0 .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-662f2c0 .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-cb22689 {
+                --spacer-size: 117px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-be0298a .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-be0298a .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-0644b74 {
+                --spacer-size: 27px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-b3259e0 .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-b3259e0 .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-c82b1df .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-c82b1df .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-af3e6b5 {
+                --spacer-size: 59px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-5e81538 .trx_addons_bg_text {
+                z-index: 0;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-5e81538 .trx_addons_bg_text.trx_addons_marquee_wrap .trx_addons_marquee_element {
+                padding-right: 50px;
+            }
+
+            .elementor-20884 .elementor-element.elementor-element-13b61e1 {
+                --spacer-size: 50px;
+            }
+
+            @media(min-width: 1025px) {
+                .elementor-20884 .elementor-element.elementor-element-0c2873d:not(.elementor-motion-effects-element-type-background), .elementor-20884 .elementor-element.elementor-element-0c2873d > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+                    background-attachment:fixed;
+                }
+            }
+
+            @media(max-width: 1024px) {
+                .elementor-20884 .elementor-element.elementor-element-2b1438a {
+                    --spacer-size:30px;
+                }
+            }
+
+            @media(max-width: 767px) {
+                .elementor-20884 .elementor-element.elementor-element-b9917a5 .elementor-heading-title {
+                    font-size:69px;
+                }
+
+                .elementor-20884 .elementor-element.elementor-element-cb22689 {
+                    --spacer-size: 10px;
+                }
+
+                .elementor-20884 .elementor-element.elementor-element-af3e6b5 {
+                    --spacer-size: 10px;
+                }
+            }
+        </style>
+
 
 
 
@@ -26,7 +289,7 @@ require_once('top-header.php');
                                           </div>
                                           <div class="elementor-element elementor-element-b9917a5 sc_fly_static elementor-widget elementor-widget-heading" data-id="b9917a5" data-element_type="widget" data-widget_type="heading.default">
                                              <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default">Submission</h2>
+                                                <h2 class="elementor-heading-title elementor-size-default">Kerala Short Film League -3 Submission Form</h2>
                                              </div>
                                           </div>
                                           <div class="elementor-element elementor-element-62adaea sc_fly_static elementor-widget elementor-widget-spacer" data-id="62adaea" data-element_type="widget" data-widget_type="spacer.default">
@@ -269,98 +532,200 @@ require_once('top-header.php');
                                                          <ul></ul>
                                                       </div>
                                                       <form action="film-submission/#wpcf7-f21097-p20884-o1" method="post" class="wpcf7-form init" aria-label="Contact form" enctype="multipart/form-data" novalidate="novalidate" data-status="init">
-                                                         <div style="display: none;">
-                                                            <input type="hidden" name="_wpcf7" value="21097" />
-                                                            <input type="hidden" name="_wpcf7_version" value="5.8.3" />
-                                                            <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f21097-p20884-o1" />
-                                                            <input type="hidden" name="_wpcf7_container_post" value="20884" />
-                                                            <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                                                         </div>
-                                                         <p><label> Submitter's name<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" autocomplete="name" aria-required="true" aria-invalid="false" value="" type="text" name="your-name" /></span> </label>
+                                                        
+                                                         <p><label> Email<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-email" id="your-email" /></span> </label>
                                                          </p>
-                                                         <p><label> Submitter's email<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" autocomplete="email" aria-required="true" aria-invalid="false" value="" type="email" name="your-email" /></span> </label>
+
+                                                         <p><label> Cast and Crew : (Name & Contact Details)<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-cast" id="your-cast" /></span> </label>
                                                          </p>
-                                                         <p><label> Movie Name<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="YourMovieName"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="YourMovieName" /></span> </label>
+
+                                                         <p><label> Address<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-address" id="your-address" /></span> </label>
                                                          </p>
-                                                         <p><label> Movie Format<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="movieformat"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="movieformat" /></span> </label>
+
+                                                         <p><label> Name of the Makeup Artist<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-makeup-artist" id="your-makeup-artist" /></span> </label>
                                                          </p>
-                                                         <p><label> Movie Runtime (in minutes)<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="movieruntimes"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number" min="1" max="300" aria-invalid="false" value="" type="number" name="movieruntimes" /></span></label>
+
+                                                         <p><label> Signature<br />
+                                                            <input type="checkbox" name="your-signature" id="your-signature" /> <span class="wpcf7-form-control-wrap" > Tick for SIgnature</span></label>
                                                          </p>
+
+                                                         <p><label> Name of the Art Director <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-art-director" id="your-art-director" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the VFX artist <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-vfx-artist" id="your-vfx-artist" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Please select any 10 categories you would like to compete for<br />
+                                                            <input type="checkbox" name="your-categories" value="Best Short Film" /> <span class="wpcf7-form-control-wrap" > Best Short Film</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Director" /> <span class="wpcf7-form-control-wrap" > Best Director</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Story /Screenplay" /> <span class="wpcf7-form-control-wrap" > Best Story /Screenplay</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Cameraman" /> <span class="wpcf7-form-control-wrap" > Best Cameraman</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Editor" /> <span class="wpcf7-form-control-wrap" > Best Editor</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Art Director" /> <span class="wpcf7-form-control-wrap" > Best Art Director</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Make Up" /> <span class="wpcf7-form-control-wrap" > Best Make Up</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Costumer" /> <span class="wpcf7-form-control-wrap" > Best Costumer</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Background Score/ Re-recording" /> <span class="wpcf7-form-control-wrap" > Best Background Score/ Re-recording</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Visual Effects" /> <span class="wpcf7-form-control-wrap" > Best Visual Effects</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Poster Designer" /> <span class="wpcf7-form-control-wrap" > Best Poster Designer</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Actor" /> <span class="wpcf7-form-control-wrap" > Best Actor</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Actress" /> <span class="wpcf7-form-control-wrap" > Best Actress</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Supporting Actor" /> <span class="wpcf7-form-control-wrap" > Best Supporting Actor</span><br />
+
+
+                                                            <input type="checkbox" name="your-categories" value="Best Supporting Actress" /> <span class="wpcf7-form-control-wrap" > Best Supporting Actress</span><br />
+
+                                                            <input type="checkbox" name="your-categories" value="Best Child Artiste" /> <span class="wpcf7-form-control-wrap" > Best Child Artiste</span></label><br />
+                                                            
+                                                         </p>
+
+                                                         <p><label> Name of the  Screen Play / Writer <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-writer" id="your-writer" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the Editor <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-editor" id="your-editor" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the Child Artist <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-child-artist" id="your-child-artist" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Short Film Title <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-title" id="your-title" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Duration:  (eg:   10 Min : 40 Sec)<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-duration" id="your-duration" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> WhatsApp Number<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-whatsApp" id="your-whatsApp" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Production Banner<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-production-banner" id="your-production-banner" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Date of Completion of Production<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" type="date" name="your-production-completion-date" id="your-production-completion-date" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the Producer<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-producer" id="your-producer" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Applicant Name<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-name" id="your-name" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the Female Lead <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-female-lead" id="your-female-lead" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Check format  of your Short Film Preview submitting<br />
+                                                            <input type="radio" name="your-preview-format" /> <span class="wpcf7-form-control-wrap" > Pen Drive (Courier)</span> <br>
+
+                                                            <input type="radio" name="your-preview-format"  /> <span class="wpcf7-form-control-wrap" > Online LINK</span>
+                                                        
+                                                            </label>
+                                                         </p>
+
+                                                         <p><label> Synopsis of the film   <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-synopsis" id="your-synopsis" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the other Artistes and details    <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-artistes-details" id="your-artistes-details" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Your role in this Short Film ?  (Producer, Director, Actor, Technician, Crew, etc)  <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-role" id="your-role" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Contact Details of Producer   <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-producer-contact" id="your-producer-contact" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the  Male Lead    <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-male-lead" id="your-male-lead" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the Poster Designer    <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-designer" id="your-designer" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the  Costumer<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-costumer" id="your-costumer" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Contact number<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-number" id="your-number" /></span> </label>
+                                                         </p>
+
+                                                         <p><label> Name of the DOP/Cameraman/Cinematographer<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-cameraman" id="your-cameraman" /></span> </label>
+                                                         </p>
+
                                                          <p>
                                                             <label>
-                                                               Movie Language<br />
+                                                            Terms and Conditions<br />
                                                                <span class="wpcf7-form-control-wrap" data-name="movielanguage">
-                                                                  <select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="movielanguage">
+                                                                  <select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="your-tac" id="your-tac">
                                                                      <option value="">&#8212;Please choose an option&#8212;</option>
-                                                                     <option value="Hindi">Hindi</option>
-                                                                     <option value="Gujrati">Gujrati</option>
-                                                                     <option value="Marathi">Marathi</option>
-                                                                     <option value="Tamil">Tamil</option>
-                                                                     <option value="Kannada">Kannada</option>
-                                                                     <option value="Odiya">Odiya</option>
-                                                                     <option value="Malayalam">Malayalam</option>
-                                                                     <option value="Telegu">Telegu</option>
-                                                                     <option value="Punjabi">Punjabi</option>
-                                                                     <option value="English">English</option>
-                                                                     <option value="German">German</option>
-                                                                     <option value="French">French</option>
-                                                                     <option value="Korean">Korean</option>
-                                                                     <option value="Japanese">Japanese</option>
-                                                                     <option value="Other">Other</option>
+                                                                     <option value="Short films completed after 2019 will be considered for the competition.">Short films completed after 2019 will be considered for the competition.</option>
+                                                                     <option value="Short films of any genre and style are welcome.">Short films of any genre and style are welcome.</option>
+                                                                     <option value="Short films can be on any subject except animated and documentary films">Short films can be on any subject except animated and documentary films</option>
+                                                                     <option value="Entry fee is Rs 1000 per film.">Entry fee is Rs 1000 per film.</option>
+                                                                     <option value="Our panel of judges consists of industry professionals with extensive experience in filmmaking and film criticism.">Our panel of judges consists of industry professionals with extensive experience in filmmaking and film criticism.</option>
+                                                                     <option value="ScreenTouch reserves the right to screen the film submitted before the Jury, Panel and Committee.">ScreenTouch reserves the right to screen the film submitted before the Jury, Panel and Committee.</option>
+                                                                     <option value="ScreenTouch reserves the right to include poster, trailer, etc. of the short films/Albums in its promotional activities.">ScreenTouch reserves the right to include poster, trailer, etc. of the short films/Albums in its promotional activities.</option>
+                                                                     <option value="All decisions made by the designated Selection Committee& regarding selections, screenings and awards at the Festival will be final. In case of dispute, decision of KSFL-3 authorities is final.">All decisions made by the designated &quot;Selection Committee&quot; regarding selections, screenings and awards at the Festival will be final. In case of dispute, decision of KSFL-3 authorities is final.</option>
+                                                                     <option value="Projects  once selected for screening will not be withdrawn. (Please note)">Projects  once selected for screening will not be withdrawn. (Please note)</option>
+                                                                     <option value="Last date for submission of entries is 13.5.2024 and date of notification of selection will be 30.05.2024.">Last date for submission of entries is 13.5.2024 and date of notification of selection will be 30.05.2024.</option>
+                                                                     <option value="Short Films will be evaluated based on criteria such as originality, storytelling, cinematography, editing, and overall impact.">Short Films will be evaluated based on criteria such as originality, storytelling, cinematography, editing, and overall impact.</option>
+                                                                     <option value="Awards will be presented in various categories, including Best Short Film, Best Director, Best Screenplay, and Audience Choice Award.">Awards will be presented in various categories, including Best Short Film, Best Director, Best Screenplay, and Audience Choice Award.</option>
+                                                                     <option value="Musical Video Album Awards conducting separately.">Musical Video Album Awards conducting separately.</option>
+                                                                    
                                                                   </select>
                                                                </span>
                                                             </label>
                                                          </p>
-                                                         <p><label> Director's Name<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="directorname"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="directorname" /></span> </label>
+
+                                                         <p><label> Project Details<br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-project-details" id="your-project-details" /></span> </label>
                                                          </p>
-                                                         <p><label> Director's Image<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="directorsImage"><input size="40" class="wpcf7-form-control wpcf7-file" accept=".jpg,.png,.jpeg" aria-invalid="false" type="file" name="directorsImage" /></span> </label>
+
+                                                         <p><label> Name of the Director <br />
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-director" id="your-director" /></span> </label>
                                                          </p>
-                                                         <p><label> Producer's Name<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="producername"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="producername" /></span> </label>
-                                                         </p>
-                                                         <p><label> Producer's Image<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="producerImage"><input size="40" class="wpcf7-form-control wpcf7-file" accept=".jpg,.png,.jpeg" aria-invalid="false" type="file" name="producerImage" /></span> </label>
-                                                         </p>
-                                                         <p><label> Production House Name<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="productionhouse"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="productionhouse" /></span> </label>
-                                                         </p>
-                                                         <p><label> Crew Details<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="crewdetails"><input size="40" class="wpcf7-form-control wpcf7-file" accept=".pdf" aria-invalid="false" type="file" name="crewdetails" /></span> </label>
-                                                         </p>
-                                                         <p>
-                                                            <label>
-                                                               Movie Type<br />
-                                                               <span class="wpcf7-form-control-wrap" data-name="MovieType">
-                                                                  <select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="MovieType">
-                                                                     <option value="">&#8212;Please choose an option&#8212;</option>
-                                                                     <option value="Short Film">Short Film</option>
-                                                                     <option value="Animated">Animated</option>
-                                                                     <option value="Feature Length">Feature Length</option>
-                                                                     <option value="Regional">Regional</option>
-                                                                     <option value="International">International</option>
-                                                                     <option value="National">National</option>
-                                                                     <option value="Documentary">Documentary</option>
-                                                                  </select>
-                                                               </span>
-                                                            </label>
-                                                         </p>
-                                                         <p><label>Movie Synopsis (less than 150 words)<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="Synopsislessthan100words"><input size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" value="" type="text" name="Synopsislessthan100words" /></span></label>
-                                                         </p>
-                                                         <p><label> Upload Movie<br />
-                                                            <span class="wpcf7-form-control-wrap" data-name="UploadMovieothersource"><input size="40" class="wpcf7-form-control wpcf7-url wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-url" aria-required="true" aria-invalid="false" placeholder="Insert your google drive, youtube or Vimeo link here" value="" type="url" name="UploadMovieothersource" /></span></label>
-                                                         </p>
+
+
+
                                                          <p><label> Payment Screenshot<br />
                                                             <span class="wpcf7-form-control-wrap" data-name="PaymentScreenshot"><input size="40" class="wpcf7-form-control wpcf7-file wpcf7-validates-as-required" accept=".jpg,.png,.or,.pdf,.files,.only" aria-required="true" aria-invalid="false" type="file" name="PaymentScreenshot" /></span></label>
                                                          </p>
+
+
+                                                         
                                                          <p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Submit" /></p>
                                                          <div class="wpcf7-response-output" aria-hidden="true"></div>
                                                       </form>

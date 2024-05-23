@@ -25,7 +25,7 @@ require_once('top-header.php');
                                           </div>
                                           <div class="elementor-element elementor-element-2812778 sc_fly_static elementor-widget elementor-widget-image" data-id="2812778" data-element_type="widget" data-widget_type="image.default">
                                              <div class="elementor-widget-container">
-                                                <img fetchpriority="high" decoding="async" width="800" height="800" src="wp-content/uploads/2023/11/removal.ai_8470e9fd-a559-4d92-b288-8774237809a3-ravnskill-21.png" class="attachment-large size-large wp-image-20159" alt="" srcset="wp-content/uploads/2023/11/removal.ai_8470e9fd-a559-4d92-b288-8774237809a3-ravnskill-21.png 800w, wp-content/uploads/2023/11/removal.ai_8470e9fd-a559-4d92-b288-8774237809a3-ravnskill-21-300x300.png 300w, wp-content/uploads/2023/11/removal.ai_8470e9fd-a559-4d92-b288-8774237809a3-ravnskill-21-150x150.png 150w, wp-content/uploads/2023/11/removal.ai_8470e9fd-a559-4d92-b288-8774237809a3-ravnskill-21-768x768.png 768w, wp-content/uploads/2023/11/removal.ai_8470e9fd-a559-4d92-b288-8774237809a3-ravnskill-21-370x370.png 370w, wp-content/uploads/2023/11/removal.ai_8470e9fd-a559-4d92-b288-8774237809a3-ravnskill-21-120x120.png 120w, wp-content/uploads/2023/11/removal.ai_8470e9fd-a559-4d92-b288-8774237809a3-ravnskill-21-410x410.png 410w, wp-content/uploads/2023/11/removal.ai_8470e9fd-a559-4d92-b288-8774237809a3-ravnskill-21-600x600.png 600w" sizes="(max-width: 800px) 100vw, 800px" />															
+                                                <img fetchpriority="high" decoding="async" width="800" height="800" src="images/ksfl.jpeg" class="attachment-large size-large wp-image-20159" alt="" srcset="images/ksfl.jpeg 800w, images/ksfl.jpeg 300w, images/ksfl.jpeg 150w, images/ksfl.jpeg 768w, images/ksfl.jpeg 370w, images/ksfl.jpeg 120w, images/ksfl.jpeg 410w, images/ksfl.jpeg 600w" sizes="(max-width: 800px) 100vw, 800px" />															
                                              </div>
                                           </div>
                                           <div class="elementor-element elementor-element-bce2011 sc_fly_static elementor-widget elementor-widget-spacer" data-id="bce2011" data-element_type="widget" data-widget_type="spacer.default">
@@ -48,7 +48,7 @@ require_once('top-header.php');
                                           </div>
                                           <div class="elementor-element elementor-element-b9917a5 sc_fly_static elementor-widget elementor-widget-heading" data-id="b9917a5" data-element_type="widget" data-widget_type="heading.default">
                                              <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default">CDIFF</h2>
+                                                <h2 class="elementor-heading-title elementor-size-default">KSFL</h2>
                                              </div>
                                           </div>
                                           <div class="elementor-element elementor-element-e8e94ce sc_fly_static elementor-widget elementor-widget-spacer" data-id="e8e94ce" data-element_type="widget" data-widget_type="spacer.default">
@@ -130,7 +130,7 @@ require_once('top-header.php');
                                           <div class="elementor-element elementor-element-37a295e elementor-align-left elementor-mobile-align-center sc_fly_static elementor-widget elementor-widget-button" data-id="37a295e" data-element_type="widget" data-widget_type="button.default">
                                              <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
-                                                   <a class="elementor-button elementor-button-link elementor-size-sm" href="film-submission/index.html">
+                                                   <a class="elementor-button elementor-button-link elementor-size-sm" href="KSFL.php">
                                                    <span class="elementor-button-content-wrapper">
                                                    <span class="elementor-button-text">Register Now</span>
                                                    </span>
