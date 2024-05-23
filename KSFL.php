@@ -539,78 +539,78 @@ require_once('top-header.php');
                                                    
                                                     
                                                         <p><label> *Applicant Name<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-name" id="your-name" placeholder="&#8212;Please enter applicant name&#8212;"/></span> <span id="e1" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-name" id="your-name" /></span> <span id="e1" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
                                                         
                                                          <p><label> *Email<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-email" id="your-email" placeholder="&#8212;Please enter email&#8212;"/></span> <span id="e2" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-email" id="your-email" /></span> <span id="e2" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Address<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-address" id="your-address" placeholder="&#8212;Please enter address&#8212;"/></span> <span id="e3" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-address" id="your-address" /></span> <span id="e3" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *WhatsApp Number<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-whatsApp" id="your-whatsApp" placeholder="&#8212;Please enter whatsapp number&#8212;"/></span> <span id="e4" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-whatsApp" id="your-whatsApp" /></span> <span id="e4" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Contact number<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-number" id="your-number" placeholder="&#8212;Please enter contact number&#8212;"/></span> <span id="e5" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-number" id="your-number" /></span> <span id="e5" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
 
                                                          <p><label> *Short Film Title <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-title" id="your-title" placeholder="&#8212;Please enter short film title&#8212;"/></span> <span id="e6" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-title" id="your-title" /></span> <span id="e6" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
 
 
                                                          <p><label> Cast and Crew : (Name & Contact Details)<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-cast" id="your-cast" placeholder="&#8212;Please enter cast and crew&#8212;"/></span> <span id="e7" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-cast" id="your-cast" /></span> <span id="e7" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Duration:  (eg:   10 Min : 40 Sec)<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-duration" id="your-duration" placeholder="&#8212;Please enter duration&#8212;"/></span> <span id="e8" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-duration" id="your-duration" /></span> <span id="e8" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Name of the  Screen Play / Writer <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-writer" id="your-writer" placeholder="&#8212;Please enter screen play or writer&#8212;" /></span> <span id="e9" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-writer" id="your-writer"  /></span> <span id="e9" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Production Banner<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-production-banner" id="your-production-banner" placeholder="&#8212;Please enter production banner&#8212;" /></span> <span id="e10" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-production-banner" id="your-production-banner"  /></span> <span id="e10" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Name of the Director <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-director" id="your-director" placeholder="&#8212;Please enter name of the director&#8212;"/></span> <span id="e11" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-director" id="your-director" /></span> <span id="e11" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Name of the Makeup Artist<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-makeup-artist" id="your-makeup-artist" placeholder="&#8212;Please enter makeup artist&#8212;" /></span> <span id="e12" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-makeup-artist" id="your-makeup-artist"  /></span> <span id="e12" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Name of the Editor <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-editor" id="your-editor" placeholder="&#8212;Please enter editor name&#8212;" /></span> <span id="e13" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-editor" id="your-editor"  /></span> <span id="e13" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> Name of the Art Director <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-art-director" id="your-art-director" placeholder="&#8212;Please enter art director&#8212;" /></span> <span id="e14" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-art-director" id="your-art-director"  /></span> <span id="e14" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> Name of the VFX artist <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-vfx-artist" id="your-vfx-artist" placeholder="&#8212;Please enter VFX artist&#8212;" /></span> <span id="e15" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-vfx-artist" id="your-vfx-artist"  /></span> <span id="e15" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> Name of the Poster Designer    <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-designer" id="your-designer" placeholder="&#8212;Please enter name of the poster designer&#8212;" /></span> <span id="e16" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span></label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-designer" id="your-designer"  /></span> <span id="e16" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span></label>
                                                          </p>
 
                                                          <p><label> *Name of the Costumer<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-costumer" id="your-costumer" placeholder="&#8212;Please enter name of the costumer&#8212;" /></span> <span id="e17" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-costumer" id="your-costumer"  /></span> <span id="e17" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Name of the DOP/Cameraman/Cinematographer<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-cameraman" id="your-cameraman" placeholder="&#8212;Please enter name of the DOP/Cameraman/Cinematographer&#8212;" /></span><span id="e18" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-cameraman" id="your-cameraman"  /></span><span id="e18" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
 
@@ -651,7 +651,7 @@ require_once('top-header.php');
                                                          </p>
 
                                                          <p><label> Name of the Child Artist <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-child-artist" id="your-child-artist" placeholder="&#8212;Please enter child artist&#8212;"/></span> <span id="e19" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-child-artist" id="your-child-artist" /></span> <span id="e19" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                         
@@ -660,38 +660,38 @@ require_once('top-header.php');
                                                          </p>
 
                                                          <p><label> *Contact Details of Producer   <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-producer-contact" id="your-producer-contact" placeholder="&#8212;Please enter contact details of producer&#8212;" /></span> <span id="e21" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span></label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-producer-contact" id="your-producer-contact"  /></span> <span id="e21" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span></label>
                                                          </p>
 
 
                                                          <p><label> Name of the Female Lead <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-female-lead" id="your-female-lead" placeholder="&#8212;Please enter female lead&#8212;"/></span> <span id="e22" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-female-lead" id="your-female-lead" /></span> <span id="e22" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> Name of the  Male Lead    <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-male-lead" id="your-male-lead" placeholder="&#8212;Please enter male lead&#8212;" /></span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-male-lead" id="your-male-lead"  /></span> </label>
                                                             <span id="e23" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span>
                                                          </p>
 
                                                          <p><label> Synopsis of the film   <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-synopsis" id="your-synopsis" placeholder="&#8212;Please enter synopsis&#8212;" /></span> <span id="e24" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-synopsis" id="your-synopsis"  /></span> <span id="e24" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Name of the other Artistes and details    <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-artistes-details" id="your-artistes-details" placeholder="&#8212;Please enter other artistes and details&#8212;" /></span><span id="e25" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-artistes-details" id="your-artistes-details"  /></span><span id="e25" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                          <p><label> *Your role in this Short Film ? (Producer, Director, Actor, Technician, Crew, etc)  <br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-role" id="your-role" placeholder="&#8212;Please enter role in this short film&#8212;"/></span> <span id="e26" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span></label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-role" id="your-role" /></span> <span id="e26" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span></label>
                                                          </p>
 
 
 
 
                                                          <p><label> Check format  of your Short Film Preview submitting<br />
-                                                            <input type="radio" name="your-preview-format" /> <span class="wpcf7-form-control-wrap" > Pen Drive (Courier)</span> <br>
+                                                            <input type="radio" name="your-preview-format" value="PenDrive" checked/> <span class="wpcf7-form-control-wrap" > Pen Drive (Courier)</span> <br>
 
-                                                            <input type="radio" name="your-preview-format"  /> <span class="wpcf7-form-control-wrap" > Online LINK</span>
+                                                            <input type="radio" name="your-preview-format" value="Link"  /> <span class="wpcf7-form-control-wrap" > Online LINK</span>
                                                         
                                                             </label>
                                                          </p>
@@ -723,7 +723,7 @@ require_once('top-header.php');
                                                          </p>
 
                                                          <p><label> Project Details<br />
-                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-project-details" id="your-project-details" placeholder="&#8212;Please enter project details&#8212;" /></span> <span id="e27" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
+                                                            <span class="wpcf7-form-control-wrap" ><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="your-project-details" id="your-project-details"  /></span> <span id="e27" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please fill out this field.</span> </label>
                                                          </p>
 
                                                         
@@ -735,12 +735,13 @@ require_once('top-header.php');
                                                          </p>
 
                                                          <p><label> Signature<br />
-                                                            <input type="checkbox" name="your-signature" id="your-signature" /> <span class="wpcf7-form-control-wrap" > Tick for Signature</span></label>
+                                                            <input type="checkbox" name="your-signature" id="your-signature" /> <span class="wpcf7-form-control-wrap" > Tick for Signature</span><br> <span id="e28" name="formErr" class="wpcf7-not-valid-tip hide" style="color:#ff5b4a;" aria-hidden="true">Please tick for signature.</span></label>
                                                          </p>
 
                                                          <p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="button" onclick="applyKSFL();" value="Submit" /></p>
-                                                         <div class="wpcf7-response-output" aria-hidden="true"></div>
-
+                                                         <div class="wpcf7-response-output" aria-hidden="true" id="responseOutput">
+                                                         </div>
+                                                            
                                                         </div>
                                                 </div>
                                              </div>
@@ -847,14 +848,18 @@ require_once('bottom-footer.php');
 
 function applyKSFL(){
     var isErr = false;
+    var topFocus = "";
     $('[name="formErr"]').addClass('hide');
+    $('#responseOutput').html("");
 
     var name = $('#your-name').val();
     $('#your-name').removeClass('highlight-border');
     if(name == ""){
         $('#your-name').focus().addClass('highlight-border');
         $('#e1').removeClass('hide');
+        if(!isErr) topFocus = "your-name";
         isErr = true;
+        
     }
 
     var email = $('#your-email').val();
@@ -862,7 +867,9 @@ function applyKSFL(){
     if(email == ""){
         $('#your-email').focus().addClass('highlight-border');
         $('#e2').removeClass('hide');
+        if(!isErr) topFocus = "your-email";
         isErr = true;
+        
     }
 
     var address = $('#your-address').val();
@@ -870,7 +877,9 @@ function applyKSFL(){
     if(address == ""){
         $('#your-address').focus().addClass('highlight-border');
         $('#e3').removeClass('hide');
+        if(!isErr) topFocus = "your-address";
         isErr = true;
+        
     }
 
     var whatsApp = $('#your-whatsApp').val();
@@ -878,7 +887,9 @@ function applyKSFL(){
     if(whatsApp == ""){
         $('#your-whatsApp').focus().addClass('highlight-border');
         $('#e4').removeClass('hide');
+        if(!isErr) topFocus = "your-whatsApp";
         isErr = true;
+        
     }
 
     var number = $('#your-number').val();
@@ -886,7 +897,9 @@ function applyKSFL(){
     if(number == ""){
         $('#your-number').focus().addClass('highlight-border');
         $('#e5').removeClass('hide');
+        if(!isErr) topFocus = "your-number";
         isErr = true;
+        
     }
 
     var title = $('#your-title').val();
@@ -894,7 +907,9 @@ function applyKSFL(){
     if(title == ""){
         $('#your-title').focus().addClass('highlight-border');
         $('#e6').removeClass('hide');
+        if(!isErr) topFocus = "your-title";
         isErr = true;
+        
     }
 
     var duration = $('#your-duration').val();
@@ -902,7 +917,9 @@ function applyKSFL(){
     if(duration == ""){
         $('#your-duration').focus().addClass('highlight-border');
         $('#e8').removeClass('hide');
+        if(!isErr) topFocus = "your-duration";
         isErr = true;
+        
     }
 
     var writer = $('#your-writer').val();
@@ -910,7 +927,9 @@ function applyKSFL(){
     if(writer == ""){
         $('#your-writer').focus().addClass('highlight-border');
         $('#e9').removeClass('hide');
+        if(!isErr) topFocus = "your-writer";
         isErr = true;
+        
     }
 
     var production_banner = $('#your-production-banner').val();
@@ -918,6 +937,7 @@ function applyKSFL(){
     if(production_banner == ""){
         $('#your-production-banner').focus().addClass('highlight-border');
         $('#e10').removeClass('hide');
+        if(!isErr) topFocus = "your-production-banner";
         isErr = true;
     }
 
@@ -926,6 +946,7 @@ function applyKSFL(){
     if(director == ""){
         $('#your-director').focus().addClass('highlight-border');
         $('#e11').removeClass('hide');
+        if(!isErr) topFocus = "your-director";
         isErr = true;
     }
 
@@ -934,7 +955,9 @@ function applyKSFL(){
     if(makeup_artist == ""){
         $('#your-makeup-artist').focus().addClass('highlight-border');
         $('#e12').removeClass('hide');
+        if(!isErr) topFocus = "your-makeup-artist";
         isErr = true;
+        
     }
 
     var editor = $('#your-editor').val();
@@ -942,7 +965,9 @@ function applyKSFL(){
     if(editor == ""){
         $('#your-editor').focus().addClass('highlight-border');
         $('#e13').removeClass('hide');
+        if(!isErr) topFocus = "your-editor";
         isErr = true;
+        
     }
 
     var costumer = $('#your-costumer').val();
@@ -950,6 +975,7 @@ function applyKSFL(){
     if(costumer == ""){
         $('#your-costumer').focus().addClass('highlight-border');
         $('#e17').removeClass('hide');
+        if(!isErr) topFocus = "your-costumer";
         isErr = true;
     }
 
@@ -958,6 +984,7 @@ function applyKSFL(){
     if(cameraman == ""){
         $('#your-cameraman').focus().addClass('highlight-border');
         $('#e18').removeClass('hide');
+        if(!isErr) topFocus = "your-cameraman";
         isErr = true;
     }
 
@@ -966,6 +993,7 @@ function applyKSFL(){
     if(production_completion_date == ""){
         $('#your-production-completion-date').focus().addClass('highlight-border');
         $('#e20').removeClass('hide');
+        if(!isErr) topFocus = "your-production-completion-date";
         isErr = true;
     }
 
@@ -974,6 +1002,7 @@ function applyKSFL(){
     if(producer_contact == ""){
         $('#your-producer-contact').focus().addClass('highlight-border');
         $('#e21').removeClass('hide');
+        if(!isErr) topFocus = "your-producer-contact";
         isErr = true;
     }
 
@@ -982,6 +1011,7 @@ function applyKSFL(){
     if(artistes_details == ""){
         $('#your-artistes-details').focus().addClass('highlight-border');
         $('#e25').removeClass('hide');
+        if(!isErr) topFocus = "your-artistes-details";
         isErr = true;
     }
 
@@ -990,11 +1020,106 @@ function applyKSFL(){
     if(role == ""){
         $('#your-role').focus().addClass('highlight-border');
         $('#e26').removeClass('hide');
+        if(!isErr) topFocus = "your-role";
         isErr = true;
     }
 
+    var cast = $('#your-cast').val();
+    var art_director = $('#your-art-director').val();
+    var vfx_artist = $('#your-vfx-artist').val();
+    var designer = $('#your-designer').val();
+
+    var selectedCategories = [];
+    $('input[name="your-categories"]:checked').each(function() {
+        selectedCategories.push($(this).val());
+    });
+
+    var child_artist = $('#your-child-artist').val();
+    var female_lead = $('#your-female-lead').val();
+    var male_lead = $('#your-male-lead').val();
+    var synopsis = $('#your-synopsis').val();
+    var preview_format = $('input[name="your-preview-format"]:checked').val();
+    var tac = $('#your-tac').val();
+    var project_details = $('#your-project-details').val();
+
+    if(isErr){
+        $('#'+topFocus).focus();
+        return false;
+    } 
+
+    var signature = $('#your-signature').is(':checked');
+
+    if(!signature){
+        $('#your-signature').focus();
+        $('#e28').removeClass('hide');
+        return false;
+    }
+
     
-    if(isErr) return false;
+
+
+        var postData = {
+            function: 'User',
+            method: "applyKSFL",
+            'name':name,
+            'email':email,
+            'address':address,
+            'whatsApp':whatsApp,
+            'number':number,
+            'title':title,
+            'cast':cast,
+            'duration':duration,
+            'writer':writer,
+            'production_banner':production_banner,
+            'director':director,
+            'makeup_artist':makeup_artist,
+            'editor':editor,
+            'art_director':art_director,
+            'vfx_artist':vfx_artist,
+            'designer':designer,
+            'costumer':costumer,
+            'cameraman':cameraman,
+            'categories':selectedCategories,
+            'child_artist':child_artist,
+            'production_completion_date':production_completion_date,
+            'producer_contact':producer_contact,
+            'female_lead':female_lead,
+            'male_lead':male_lead,
+            'synopsis':synopsis,
+            'artistes_details':artistes_details,
+            'role':role,
+            'preview_format':preview_format,
+            'tac':tac,
+            'project_details':project_details,
+            'signature':1,
+        }
+
+        $.ajax({
+        url: 'admin/ajaxHandler.php',
+        type: 'POST',
+        data: postData,
+        dataType: "json",
+        success: function (data) {
+            // console.log(data);
+            // console.log(data.status);
+            //called when successful
+            if (data.status == 1) {
+                $('#responseOutput').html('<span class="wpcf7-not-valid-tip" style="color:green;" aria-hidden="true">Your application has been successfully submitted. We will contact you soon.<br>Thank you.</span>');
+            
+            }else{
+                $('#responseOutput').html('<span class="wpcf7-not-valid-tip" style="color:#ff5b4a;" aria-hidden="true">Something went wrong, Please try again</span>');
+
+            }
+            
+        },
+        error: function (x,h,r) {
+        //called when there is an error
+            console.log(x);
+            console.log(h);
+            console.log(r);
+            
+        }
+    });
 
     alert(name);
 }
