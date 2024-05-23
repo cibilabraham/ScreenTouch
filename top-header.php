@@ -120,6 +120,9 @@
       <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed68cb.json?url=https%3A%2F%2Flocalhost%2F" />
       <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed9c30?url=https%3A%2F%2Flocalhost%2F&amp;format=xml" />
       <link rel="preload" href="wp-content/plugins/advanced-popups/fonts/advanced-popups-icons.woff" as="font" type="font/woff" crossorigin>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      
       <!-- Wordpress Stats Manager -->
       <script type="text/javascript">
          var _wsm = _wsm || [];
