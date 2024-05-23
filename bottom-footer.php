@@ -21,8 +21,8 @@
                                              <div class="elementor-widget-container">
                                                 <a href="#"
                                                    class="sc_layouts_logo sc_layouts_logo_default trx_addons_inline_113244966" ><img class="logo_image"
-                                                   src="wp-content/uploads/2023/11/Untitled-5.png"
-                                                   srcset="//cinedreamsiff.com/wp-content/uploads/2023/11/Untitled-5.png 2x"
+                                                   src="images/logo.png"
+                                                   srcset="images/logo.png 2x"
                                                    alt="Cinedreams" width="960" height="400"></a>		
                                              </div>
                                           </div>
