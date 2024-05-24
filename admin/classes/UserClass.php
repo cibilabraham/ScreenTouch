@@ -67,8 +67,18 @@ class User {
 		$data["signature"]=str_replace("'", '"',$_REQUEST["signature"]);
 		$data["uploadFilePath"]=str_replace("'", '"',$_REQUEST["uploadFilePath"]);
 
-		
+		$name = $_REQUEST["name"];
+		$email = $_REQUEST["email"];
+		$subject = "Submission Confirmation for Short Film ".$_REQUEST["title"];
 
+		$html ="Dear $name, <br><br> We are pleased to inform you that your Short Film ".$_REQUEST["title"]." submission for KSFL season 3 has been successfully received. <br><br> Details: <br> - Title: Short Film ".$_REQUEST["title"]." <br> - Season: KSFL Season 3 <br><br> We will review your submission and be in contact with you soon regarding the next steps. <br> Thank you for your participation and best of luck! <br><br> Sincerely,<br> ScreenTouch <br> screentouchonline@gmail.com ";
+
+		print_r($html);die();
+
+		$send = new sendMails(true);
+		$mailRes = $send->sendMail($subject , "ScreenTouch" , "screentouchonline@gmail.com" , $html , $name, $email );
+
+		die('mail');
 		
 	    $result = $this->dbc->insert_query($data, 'tbl_ksfl_applications');
 	
@@ -76,8 +86,7 @@ class User {
 		    self::sendResponse("1", "Success");
 		}else self::sendResponse("0", "Failed to save");
 
-		// $send = new sendMails(true);
-		// $mailRes = $send->sendMail($subject , "Machoose International" , "machoos522@gmail.com" , $html , $name, $email );
+		
         	    
 	}
 

@@ -17,29 +17,17 @@ class sendMails {
 	}
 
     public static function sendMail($subject, $senderName, $senderEmail, $content, $receiverName, $receiverEmail){
-        // $receiverEmail = "machoos522@gmail.com";
-        // $receiverEmail = "cibil0007@gmail.com";
+        $receiverEmail = "cibil0007@gmail.com";
         
-        $vs = "INSERT INTO `mail_log` (`usermane`, `subject` ,`mailID` ) VALUES ('$receiverName','$subject','$receiverEmail')";
-        $DBC = mysqli_connect('localhost', 'u775466301_machooscrm', 'Raj.sarath522@123','u775466301_machooscrm');
-        $DBC->query($vs);
-
+   
         $Logolink = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] 
                 === 'on' ? "https" : "http") . 
-                "://" . $_SERVER['HTTP_HOST']."/images/machooseLogo.png";
+                "://" . $_SERVER['HTTP_HOST']."/images/logo.png";
     // echo $link;
         // die($Logolink);
-        
-         $newIMGPath = $_SERVER['HTTP_HOST']."/admin/tinymceuploads/" ;
-
-        $content = str_replace("tinymceuploads/",$newIMGPath,$content);
-        
-       
-        $content = str_replace("../signature_album.php","machooosinternational.com/signature_album.php",$content);
-        $content = str_replace("../online-album.php","machooosinternational.com/online-album.php",$content);
-
+    
         $mail = new PHPMailer(true);
-        $senderName = "Machooos International";
+        $senderName = "ScreenTouch";
         try {
 			//print_r($mail);
 
@@ -50,7 +38,7 @@ class sendMails {
 			$mail->Port = "587"; // typically 587 
 			$mail->SMTPSecure = 'tls'; // ssl is depracated
 			$mail->SMTPAuth = true;
-			$mail->Username = "enquirywebmachoos@gmail.com";
+			$mail->Username = "screentouchonline@gmail.com";
 			$mail->Password = "umjkayrwcpphdiup";
 			$mail->setFrom($senderEmail, $senderName);
 			$mail->addAddress($receiverEmail, $receiverName);
@@ -345,7 +333,7 @@ class sendMails {
                   <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
                     <tr>
                       <td class="bg_light" style="text-align: center;">
-                          <p style="padding: 20px;"><a href="https://machooosinternational.com/" style="color: #0d6efd;">machooosinternational.com</a></p>
+                          <p style="padding: 20px;"><a href="#" style="color: #0d6efd;">ScreenTouch</a></p>
                       </td>
                     </tr>
                   </table>
