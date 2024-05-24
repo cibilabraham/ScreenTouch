@@ -122,7 +122,7 @@
       <link rel="preload" href="wp-content/plugins/advanced-popups/fonts/advanced-popups-icons.woff" as="font" type="font/woff" crossorigin>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      
+
       <!-- Wordpress Stats Manager -->
       <script type="text/javascript">
          var _wsm = _wsm || [];
@@ -177,7 +177,7 @@
                                     <nav class="sc_layouts_menu sc_layouts_menu_default sc_layouts_menu_dir_horizontal menu_hover_zoom_line" data-animation-in="fadeIn" data-animation-out="fadeOut" >
                                        <ul id="sc_layouts_menu_583353769" class="sc_layouts_menu_nav">
                                           <li id="menu-item-18472" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18472"><a href="index.php"><span>Home</span></a></li>
-                                          <li id="menu-item-20272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20272"><a href="about-cdiff/index.html"><span>About</span></a></li>
+                                          <li id="menu-item-20272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20272"><a href="about.php"><span>About</span></a></li>
                                           <li id="menu-item-20467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20467"><a href="our-team-members/index.html"><span>Team</span></a></li>
                                           <li id="menu-item-20271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20271"><a href="jury-advisory/index.html"><span>Jury</span></a></li>
                                           <li id="menu-item-20270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20270"><a href="awards/index.html"><span>Awards</span></a></li>
@@ -237,7 +237,7 @@
                         <nav class="menu_mobile_nav_area" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
                            <ul id="menu_mobile_712829255">
                               <li id="menu_mobile-item-18472" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18472"><a href="index.php"><span>Home</span></a></li>
-                              <li id="menu_mobile-item-20272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20272"><a href="about-cdiff/index.html"><span>About</span></a></li>
+                              <li id="menu_mobile-item-20272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20272"><a href="about.php"><span>About</span></a></li>
                               <li id="menu_mobile-item-20467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20467"><a href="our-team-members/index.html"><span>Team</span></a></li>
                               <li id="menu_mobile-item-20271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20271"><a href="jury-advisory/index.html"><span>Jury</span></a></li>
                               <li id="menu_mobile-item-20270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20270"><a href="awards/index.html"><span>Awards</span></a></li>
