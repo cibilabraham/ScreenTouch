@@ -115,7 +115,7 @@
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="awards.php"><span class="custom_links_list_item_title">Awards</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="KSFL.php"><span class="custom_links_list_item_title">KSFL</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="KMVL.php"><span class="custom_links_list_item_title">KMVL</span></a></li>
-                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="oursupporters/index.html"><span class="custom_links_list_item_title">Supporters</span></a></li>
+                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="oursupporters.php"><span class="custom_links_list_item_title">Supporters</span></a></li>
                                                       </ul>
                                                    </aside>
                                                 </div>

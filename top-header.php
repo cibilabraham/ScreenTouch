@@ -183,7 +183,7 @@
                                           <li id="menu-item-20270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20270"><a href="awards.php"><span>Awards</span></a></li>
                                           <li id="menu-item-20908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20908"><a href="KSFL.php"><span>KSFL</span></a></li>
                                           <li id="menu-item-20908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20908"><a href="KMVL.php"><span>KMVL</span></a></li>
-                                          <li id="menu-item-21527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21527"><a href="oursupporters/index.html"><span>Supporters</span></a></li>
+                                          <li id="menu-item-21527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21527"><a href="oursupporters.php"><span>Supporters</span></a></li>
                                        </ul>
                                     </nav>
                                  </div>
@@ -243,7 +243,7 @@
                               <li id="menu_mobile-item-20270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20270"><a href="awards.php"><span>Awards</span></a></li>
                               <li id="menu_mobile-item-20908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20908"><a href="KSFL.php"><span>KSFL</span></a></li>
                               <li id="menu_mobile-item-20908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20908"><a href="KMVL.php"><span>KMVL</span></a></li>
-                              <li id="menu_mobile-item-21527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21527"><a href="oursupporters/index.html"><span>Supporters</span></a></li>
+                              <li id="menu_mobile-item-21527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21527"><a href="oursupporters.php"><span>Supporters</span></a></li>
                            </ul>
                         </nav>
                         <div class="socials_mobile"><a target="_blank" href="https://www.facebook.com/profile.php?id=61556258701760" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons"><span class="social_icon social_icon_facebook-1" style=""><span class="icon-facebook-1"></span></span></a><a target="_blank" href="https://twitter.com/cinedreamsiff" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons"><span class="social_icon social_icon_twitter-new" style=""><span class="icon-twitter-new"></span></span></a><a target="_blank" href="https://www.instagram.com/cinedreams_iff/" class="social_item social_item_style_icons sc_icon_type_icons social_item_type_icons"><span class="social_icon social_icon_instagram" style=""><span class="icon-instagram"></span></span></a></div>
