@@ -415,7 +415,7 @@ require_once('top-header.php');
                                           <div class="elementor-element elementor-element-eb3ab33 elementor-align-left sc_layouts_hide_on_wide sc_layouts_hide_on_desktop sc_layouts_hide_on_notebook sc_layouts_hide_on_tablet sc_layouts_hide_on_mobile sc_fly_static elementor-widget elementor-widget-button" data-id="eb3ab33" data-element_type="widget" data-widget_type="button.default">
                                              <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
-                                                   <a class="elementor-button elementor-button-link elementor-size-sm" href="jury-advisory/index.html">
+                                                   <a class="elementor-button elementor-button-link elementor-size-sm" href="jury-advisory.php">
                                                    <span class="elementor-button-content-wrapper">
                                                    <span class="elementor-button-text">Know more about our Jury</span>
                                                    </span>
@@ -715,7 +715,7 @@ require_once('top-header.php');
                                           <div class="elementor-element elementor-element-527ce95 elementor-align-center sc_fly_static elementor-widget elementor-widget-button" data-id="527ce95" data-element_type="widget" data-widget_type="button.default">
                                              <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
-                                                   <a class="elementor-button elementor-button-link elementor-size-sm" href="jury-advisory/index.html">
+                                                   <a class="elementor-button elementor-button-link elementor-size-sm" href="jury-advisory.php">
                                                    <span class="elementor-button-content-wrapper">
                                                    <span class="elementor-button-text">Read More</span>
                                                    </span>
