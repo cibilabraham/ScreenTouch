@@ -178,7 +178,7 @@
                                        <ul id="sc_layouts_menu_583353769" class="sc_layouts_menu_nav">
                                           <li id="menu-item-18472" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18472"><a href="index.php"><span>Home</span></a></li>
                                           <li id="menu-item-20272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20272"><a href="about.php"><span>About</span></a></li>
-                                          <li id="menu-item-20467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20467"><a href="our-team-members/index.html"><span>Team</span></a></li>
+                                          <li id="menu-item-20467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20467"><a href="our-team.php"><span>Team</span></a></li>
                                           <li id="menu-item-20271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20271"><a href="jury-advisory/index.html"><span>Jury</span></a></li>
                                           <li id="menu-item-20270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20270"><a href="awards/index.html"><span>Awards</span></a></li>
                                           <li id="menu-item-20908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20908"><a href="KSFL.php"><span>KSFL</span></a></li>
@@ -238,7 +238,7 @@
                            <ul id="menu_mobile_712829255">
                               <li id="menu_mobile-item-18472" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18472"><a href="index.php"><span>Home</span></a></li>
                               <li id="menu_mobile-item-20272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20272"><a href="about.php"><span>About</span></a></li>
-                              <li id="menu_mobile-item-20467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20467"><a href="our-team-members/index.html"><span>Team</span></a></li>
+                              <li id="menu_mobile-item-20467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20467"><a href="our-team.php"><span>Team</span></a></li>
                               <li id="menu_mobile-item-20271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20271"><a href="jury-advisory/index.html"><span>Jury</span></a></li>
                               <li id="menu_mobile-item-20270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20270"><a href="awards/index.html"><span>Awards</span></a></li>
                               <li id="menu_mobile-item-20908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20908"><a href="KSFL.php"><span>KSFL</span></a></li>

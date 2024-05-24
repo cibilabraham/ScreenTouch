@@ -110,7 +110,7 @@
                                                       <ul class="custom_links_list">
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="index.php"><span class="custom_links_list_item_title">Home</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="about.php"><span class="custom_links_list_item_title">About</span></a></li>
-                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="our-team-members/index.html"><span class="custom_links_list_item_title">Team</span></a></li>
+                                                         <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="our-team.php"><span class="custom_links_list_item_title">Team</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="jury-advisory/index.html"><span class="custom_links_list_item_title">Jury</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="awards/index.html"><span class="custom_links_list_item_title">Awards</span></a></li>
                                                          <li class="custom_links_list_item"><a class="custom_links_list_item_link" href="KSFL.php"><span class="custom_links_list_item_title">KSFL</span></a></li>
