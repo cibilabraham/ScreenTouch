@@ -73,12 +73,9 @@ class User {
 
 		$html ="Dear $name, <br><br> We are pleased to inform you that your Short Film ".$_REQUEST["title"]." submission for KSFL season 3 has been successfully received. <br><br> Details: <br> - Title: Short Film ".$_REQUEST["title"]." <br> - Season: KSFL Season 3 <br><br> We will review your submission and be in contact with you soon regarding the next steps. <br> Thank you for your participation and best of luck! <br><br> Sincerely,<br> ScreenTouch <br> screentouchonline@gmail.com ";
 
-		print_r($html);die();
+		// $send = new sendMails(true);
+		// $mailRes = $send->sendMail($subject , "ScreenTouch" , "screentouchonline@gmail.com" , $html , $name, $email );
 
-		$send = new sendMails(true);
-		$mailRes = $send->sendMail($subject , "ScreenTouch" , "screentouchonline@gmail.com" , $html , $name, $email );
-
-		die('mail');
 		
 	    $result = $this->dbc->insert_query($data, 'tbl_ksfl_applications');
 	
