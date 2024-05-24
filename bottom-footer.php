@@ -64,12 +64,12 @@
                                           </div>
                                           <div class="sc_layouts_item elementor-element elementor-element-b0e2704 sc_fly_static elementor-widget elementor-widget-text-editor" data-id="b0e2704" data-element_type="widget" data-widget_type="text-editor.default">
                                              <div class="elementor-widget-container">
-                                                <a class="underline_anim" href="mailto:cinedreamsiff@gmail.com">cinedreamsiff@gmail.com</a>						
+                                                <a class="underline_anim" href="mailto:screentouchonline@gmail.com">screentouchonline@gmail.com</a>						
                                              </div>
                                           </div>
                                           <div class="sc_layouts_item elementor-element elementor-element-a42e4b7 sc_fly_static elementor-widget elementor-widget-text-editor" data-id="a42e4b7" data-element_type="widget" data-widget_type="text-editor.default">
                                              <div class="elementor-widget-container">
-                                                <p><a href="mailto:info@cinedreamsiff.com">info@cinedreamsiff.com</a></p>
+                                                <p><a href="mailto:"></a></p>
                                              </div>
                                           </div>
                                           <div class="sc_layouts_item elementor-element elementor-element-77c84582 sc_layouts_hide_on_mobile sc_fly_static elementor-widget elementor-widget-spacer" data-id="77c84582" data-element_type="widget" data-widget_type="spacer.default">
@@ -180,7 +180,7 @@
                                           </div>
                                           <div class="sc_layouts_item elementor-element elementor-element-22c1c534 sc_fly_static elementor-widget elementor-widget-text-editor" data-id="22c1c534" data-element_type="widget" data-widget_type="text-editor.default">
                                              <div class="elementor-widget-container">
-                                                <p>Cinedreams Pvt ltd © . All Rights Reserved.</p>
+                                                <p>ScreenTouch © . All Rights Reserved.</p>
                                              </div>
                                           </div>
                                           <div class="sc_layouts_item elementor-element elementor-element-3cbf3eba sc_layouts_hide_on_mobile sc_fly_static elementor-widget elementor-widget-spacer" data-id="3cbf3eba" data-element_type="widget" data-widget_type="spacer.default">
