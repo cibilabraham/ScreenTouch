@@ -294,7 +294,7 @@ require_once('top-header.php');
                                           </div>
                                           <div class="elementor-element elementor-element-b9917a5 sc_fly_static elementor-widget elementor-widget-heading" data-id="b9917a5" data-element_type="widget" data-widget_type="heading.default">
                                              <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default">Kerala Short Film League -3 Submission Form</h2>
+                                                <h2 class="elementor-heading-title elementor-size-default">KSFL -3 Submission Form</h2>
                                              </div>
                                           </div>
                                           <div class="elementor-element elementor-element-62adaea sc_fly_static elementor-widget elementor-widget-spacer" data-id="62adaea" data-element_type="widget" data-widget_type="spacer.default">

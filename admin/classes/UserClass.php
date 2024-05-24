@@ -19,6 +19,16 @@ class User {
 		echo json_encode($resp);
 		die();
 	}
+
+	public function login(){
+		$username=$_REQUEST["username"];
+		$password=$_REQUEST["password"];
+		if($username == "admin@gmail.com" && $password == "passme2024" ){
+			$_SESSION['isLogin']=TRUE;
+        	$_SESSION['Username']='Admin';
+			self::sendResponse("1", "Authentication success");
+		}else self::sendResponse("0", "Authentication failed");
+	}
 	
 	public function applyKSFL(){
 
@@ -42,7 +52,7 @@ class User {
 		$data["designer"]=str_replace("'", '"',$_REQUEST["designer"]);
 		$data["costumer"]=str_replace("'", '"',$_REQUEST["costumer"]);
 		$data["cameraman"]=str_replace("'", '"',$_REQUEST["cameraman"]);
-		$data["categories"]=serialize($_REQUEST["categories"]);
+		$data["categories"]=json_encode($_REQUEST["categories"]);
 		$data["child_artist"]=str_replace("'", '"',$_REQUEST["child_artist"]);
 		$data["production_completion_date"]=$_REQUEST["production_completion_date"];
 		$data["producer_contact"]=str_replace("'", '"',$_REQUEST["producer_contact"]);
@@ -69,6 +79,30 @@ class User {
 		// $send = new sendMails(true);
 		// $mailRes = $send->sendMail($subject , "Machoose International" , "machoos522@gmail.com" , $html , $name, $email );
         	    
+	}
+
+	public function getKSFLListData(){
+		
+		$sql = "SELECT * FROM tbl_ksfl_applications WHERE active=0 ORDER BY id DESC";
+   
+	   $result = $this->dbc->get_rows($sql);
+	 
+	   if($result != "")self::sendResponse("1", $result);
+	   else self::sendResponse("2", "No data found");
+   
+   }
+
+   public function getKSFLData(){
+	    
+		$sel_id=$_REQUEST["sel_id"];
+
+		$sql = "SELECT * FROM tbl_ksfl_applications WHERE id = $sel_id ";
+
+		$result = $this->dbc->get_rows($sql);
+	
+		if($result != "")self::sendResponse("1", $result[0]);
+		else self::sendResponse("2", "No data found");
+
 	}
 	
 	
