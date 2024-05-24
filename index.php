@@ -1194,7 +1194,7 @@ require_once('top-header.php');
                                           <div class="elementor-element elementor-element-9188a4c elementor-align-center sc_fly_static elementor-widget elementor-widget-button" data-id="9188a4c" data-element_type="widget" data-widget_type="button.default">
                                              <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
-                                                   <a class="elementor-button elementor-button-link elementor-size-sm" href="awards/index.html">
+                                                   <a class="elementor-button elementor-button-link elementor-size-sm" href="awards.php">
                                                    <span class="elementor-button-content-wrapper">
                                                    <span class="elementor-button-text">See all awards</span>
                                                    </span>
